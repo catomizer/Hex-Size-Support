@@ -81,7 +81,7 @@ export class HexTokenConfig extends FormApplication {
 			let options = templateArray[index];
 			this.object.data.scale = options.scale;
 			this.object.data.height = options.borderSize;
-			this.object.data.width = options.borderSize;
+			this.object.data.width = Number(options.borderSize);
 
 			this.object.data.tempHexValues = {
 				tempPivot: options.pivot,

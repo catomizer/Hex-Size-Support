@@ -7,12 +7,12 @@
   "minimumCoreVersion": "0.6.0",
   "compatibleCoreVersion": "0.7.8",
   "esmodules": [
-  	"modules/hooks.js",
+    "modules/hooks.js",
     "modules/ruler-changes.js",
     "modules/helpers.js",
     "modules/token-changes.js"
   ],
   "url": "https://github.com/The-E/Hex-Size-Support",
   "manifest": "https://raw.githubusercontent.com/The-E/Hex-Size-Support/feature/foundry-update/module.json",
-  "download": "https://github.com/Ourobor/Hex-Size-Support/archive/feature/foundry-update.zip"
+  "download": "https://github.com/The-E/Hex-Size-Support/archive/feature/foundry-update.zip"
 }

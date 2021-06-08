@@ -12,7 +12,7 @@
     "modules/helpers.js",
     "modules/token-changes.js"
   ],
-  "url": "https://github.com/Ourobor/Hex-Size-Support",
-  "manifest": "https://raw.githubusercontent.com/Ourobor/Hex-Size-Support/master/module.json",
-  "download": "https://github.com/Ourobor/Hex-Size-Support/archive/master.zip"
+  "url": "https://github.com/The-E/Hex-Size-Support",
+  "manifest": "https://raw.githubusercontent.com/The-E/Hex-Size-Support/feature/foundry-update/module.json",
+  "download": "https://github.com/Ourobor/Hex-Size-Support/archive/feature/foundry-update.zip"
 }

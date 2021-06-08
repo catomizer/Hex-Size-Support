@@ -315,7 +315,7 @@ export class HexTokenConfig extends FormApplication {
 		if (options == undefined) {
 			this.object.data.scale = this.originalScale;
 			this.object.data.height = this.originalHeight;
-			this.object.data.width = this.originalWidth;
+			this.object.data.width = Number(this.originalWidth);
 		}
 
 		//trigger relevant redraws on the token

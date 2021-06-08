@@ -8,10 +8,7 @@ Hooks.once('init', async function(){
 
 //Add the hex config button to the token hud
 Hooks.on("renderTokenHUD", async (app, html, token) => {
-        var configButton = html.find('[data-action="config"]').first();
-        if (configButton === null) {
-            configButton = html.find('.config');
-        }
+		const configButton = html.find('.config');
 		configButton.after($(`
 		<div class="control-icon config" id="hexConfig">
            	<img src="modules/hex-size-support/assets/hexIcon.svg" style="display: block; margin-left: auto; margin-right: auto;"/>

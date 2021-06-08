@@ -49,7 +49,7 @@ export function findMovementToken(x0,y0) {
  * @return the value of the altSnapping flag, or the temporary value if it's present
  */
 export function getAltSnappingFlag(token){
-    let altSnapping = token.getFlag("hex-size-support", "altSnapping");
+    let altSnapping = token.do.getFlag("hex-size-support", "altSnapping");
     if(token.data?.tempHexValues?.altSnapping != undefined){
         altSnapping = token.data.tempHexValues.altSnapping
     }

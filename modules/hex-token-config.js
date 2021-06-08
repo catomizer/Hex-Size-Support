@@ -75,7 +75,7 @@ export class HexTokenConfig extends FormApplication {
   }
 
   _applyTemplate(event){
-  	// console.log(this)
+  	console.log(this)
   	let index = this.form.elements.template.selectedIndex;
   	if(index > -1){
   		let options = templateArray[index];
@@ -277,7 +277,7 @@ export class HexTokenConfig extends FormApplication {
 		let updateData = {
 				scale: formData.scale.toString(), 
 				height: token.data.height.toString(), 
-				width: token.data.width.toString()
+				width: token.data.width
 		};
 
 
